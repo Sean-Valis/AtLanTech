@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean Valis | Portfolio & Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <span class="logo"><a href ="./index.html">Dev & Outdoors</a></span>
+            <ul>
+                <li><a href="./index.html#projects">Projects</a></li>
+                <li><a href="./resume.html">Resume</a></li>
+                <li><a href="./index.html#blog">Personal Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <main class="container resume-viewer">
+        <header class="resume-header">
+            <h1>Curriculum Vitae</h1>
+            <p>View my qualifications below or grab a copy for your records.</p>
+            <a href="assets/my-resume.pdf" download="YourName_Resume.pdf" class="btn download-btn">
+                <span>⬇</span> Download PDF
+            </a>
+        </header>
+
+        <div class="pdf-container">
+            <embed 
+                src="assets/my-resume.pdf" 
+                type="application/pdf" 
+                width="100%" 
+                height="800px" 
+            />
+            <p class="mobile-warning">
+                Using a mobile device? <a href="assets/my-resume.pdf">Click here to view the PDF.</a>
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sean Valis. Built with Cloudflare Pages.</p>
+    </footer>
+
+</body>
+</html>
